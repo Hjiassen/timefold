@@ -1,0 +1,21 @@
+{
+  "name": "timefold",
+  "version": "0.1.0",
+  "description": "Explore video as a particle-based spacetime composition.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "test": "node --test src/*.test.js"
+  },
+  "dependencies": {
+    "lucide": "^0.468.0",
+    "three": "^0.180.0",
+    "vite": "^7.1.7"
+  },
+  "devDependencies": {}
+}
